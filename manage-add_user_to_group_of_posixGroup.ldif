@@ -1,0 +1,6 @@
+#
+dn: cn=组名,ou=Group,dc=hb,dc=lan
+changetype: modify
+add: memberUid
+memberUid: 用户uid
+

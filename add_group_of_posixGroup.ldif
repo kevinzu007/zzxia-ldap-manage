@@ -1,0 +1,9 @@
+# create new
+dn: cn=pg-deploy,ou=OtherGroup,dc=hb,dc=lan
+objectClass: posixGroup
+cn: pg-deploy
+gidNumber: 20000
+description: 发布服务器
+memberUid: kevin
+
+

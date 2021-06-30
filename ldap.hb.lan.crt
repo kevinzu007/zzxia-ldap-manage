@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 6 (0x6)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CN, ST=GuangDong, L=GuangZhou, O=ZZXIA Group, CN=ZZXIA-ROOT-CA
+        Validity
+            Not Before: Jun 17 02:26:11 2021 GMT
+            Not After : Jun 17 02:26:11 2022 GMT
+        Subject: C=CN, ST=GuangDong, O=HaiBao, OU=IT, CN=ldap.hb.lan/emailAddress=admin@hb.lan
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d0:57:7c:c9:cf:84:f0:f8:2e:f0:63:58:c6:04:
+                    87:d6:37:9d:c4:09:68:a4:64:67:0a:43:bd:05:a8:
+                    ac:fe:bd:4f:5a:1c:2e:cf:e9:be:d1:6f:5a:6c:02:
+                    51:9d:37:db:42:a4:95:61:d0:9b:b3:db:9e:ef:8b:
+                    11:6e:58:84:56:71:a0:8d:4a:c2:fb:e8:47:94:78:
+                    07:26:35:2e:bc:f9:67:92:c0:93:e9:54:da:7a:66:
+                    0a:61:74:ef:c7:1b:e0:27:b7:4f:8b:31:41:1a:bc:
+                    2d:e6:7f:08:dd:27:b2:fc:bc:9c:1c:68:25:48:fe:
+                    99:b2:1b:d9:03:da:15:31:c6:ce:6d:b6:83:bc:f6:
+                    c0:93:73:1d:bc:cf:39:66:db:f5:c3:2b:72:cc:02:
+                    b0:32:ac:0a:fe:31:8f:c9:77:3b:b5:f9:0f:c7:e5:
+                    60:1f:82:a5:83:7c:d4:8c:17:24:74:9c:23:25:d9:
+                    5f:9e:31:43:ea:08:5b:ff:86:ef:31:5a:5a:b0:21:
+                    4e:8c:0f:62:a6:a0:af:80:ad:76:bd:53:13:64:27:
+                    42:9d:b5:a6:3c:ae:da:dd:a0:a6:c4:ea:a8:88:29:
+                    df:f0:68:6d:ae:83:e0:ff:28:69:23:e4:6c:69:ee:
+                    41:04:5d:89:f7:e6:0f:33:0e:ce:26:17:24:31:53:
+                    6d:cd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:ldap.hb.lan, DNS:192.168.5.6, DNS:192.168.5.7
+    Signature Algorithm: sha256WithRSAEncryption
+         6d:af:39:fe:4c:0a:87:49:a4:f4:61:2d:aa:58:33:a9:c0:2a:
+         fe:49:fe:2d:6c:17:6d:3d:97:88:49:dc:df:46:a1:62:1e:00:
+         2e:86:03:ef:05:19:98:33:c8:4a:63:91:8a:4f:af:1f:08:db:
+         20:fd:e4:73:ae:7e:ec:45:49:0c:79:11:dc:05:63:ad:ee:51:
+         6e:75:a9:42:42:01:a5:a7:a1:5c:f8:2c:4f:b1:74:5f:05:51:
+         29:6d:30:f6:72:e5:d5:6b:e2:0c:a8:86:8b:69:23:bb:80:f5:
+         06:c3:75:df:6b:60:6a:dd:51:e3:77:4c:57:78:b2:42:a1:a3:
+         f5:f3:db:63:d1:80:fd:13:fb:5f:1e:36:f2:e2:2d:4d:ed:1f:
+         8c:4d:f0:93:6e:e1:f3:dd:06:6f:b1:6b:d6:5e:f7:af:ea:0c:
+         f7:ce:ce:a4:bc:e4:e9:09:5d:45:39:5d:b6:bd:2f:7b:d4:9b:
+         b7:07:5c:79:fb:3b:10:f2:6d:31:c2:13:a9:3f:8b:9a:64:6b:
+         d7:d7:ad:99:48:74:9a:4c:51:2b:ef:1e:27:c4:a3:dc:ac:db:
+         70:10:35:c3:22:e7:90:8c:04:0d:0e:57:a5:34:9f:2f:80:40:
+         e6:0c:bb:52:6b:a2:c9:4b:5b:33:28:d9:16:75:d8:df:c7:06:
+         c8:85:0a:a7:b2:bf:39:ec:2a:32:f4:86:d4:32:76:db:bf:31:
+         23:42:c7:4e:86:1b:32:f4:ab:10:bc:c4:b9:68:58:80:58:d9:
+         c8:2b:d2:d5:4f:7b:77:56:3f:b1:46:bc:84:cc:df:88:4f:5c:
+         82:9b:69:d1:89:7b:39:96:5b:1d:f1:db:8d:97:82:65:64:01:
+         10:df:d4:7b:77:19:1e:26:b5:c3:db:fd:d6:a2:de:4e:a6:51:
+         0f:65:9d:e3:37:b5:6d:06:f2:4b:26:41:3d:31:49:f7:79:ea:
+         1b:53:d3:69:73:67:65:23:a5:d5:2d:77:b5:0e:31:02:a9:d7:
+         10:e2:66:60:4d:91:79:ac:94:e3:26:d8:f4:13:36:24:f8:af:
+         97:36:5f:e0:0d:c3:e6:cc:85:dd:d9:65:08:c9:38:fc:ab:10:
+         11:83:a7:92:48:29:3d:d3:ac:9e:30:df:06:3c:0a:b9:e7:e9:
+         2a:37:e8:44:13:46:c3:06:f3:42:74:31:35:4d:07:37:64:c4:
+         08:5a:16:f5:9f:63:51:cb:8c:70:fa:4b:2c:46:f6:79:df:95:
+         af:56:4e:27:50:fa:35:86:d8:7b:01:8d:60:06:be:3a:17:01:
+         fc:de:cf:1d:25:c2:61:b7:dd:1b:01:15:b2:9e:9f:14:34:f3:
+         44:8e:59:44:21:59:b5:60
+-----BEGIN CERTIFICATE-----
+MIIEnDCCAoSgAwIBAgIBBjANBgkqhkiG9w0BAQsFADBjMQswCQYDVQQGEwJDTjES
+MBAGA1UECAwJR3VhbmdEb25nMRIwEAYDVQQHDAlHdWFuZ1pob3UxFDASBgNVBAoM
+C1paWElBIEdyb3VwMRYwFAYDVQQDDA1aWlhJQS1ST09ULUNBMB4XDTIxMDYxNzAy
+MjYxMVoXDTIyMDYxNzAyMjYxMVowcjELMAkGA1UEBhMCQ04xEjAQBgNVBAgMCUd1
+YW5nRG9uZzEPMA0GA1UECgwGSGFpQmFvMQswCQYDVQQLDAJJVDEUMBIGA1UEAwwL
+bGRhcC5oYi5sYW4xGzAZBgkqhkiG9w0BCQEWDGFkbWluQGhiLmxhbjCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBANBXfMnPhPD4LvBjWMYEh9Y3ncQJaKRk
+ZwpDvQWorP69T1ocLs/pvtFvWmwCUZ0320KklWHQm7Pbnu+LEW5YhFZxoI1Kwvvo
+R5R4ByY1Lrz5Z5LAk+lU2npmCmF078cb4Ce3T4sxQRq8LeZ/CN0nsvy8nBxoJUj+
+mbIb2QPaFTHGzm22g7z2wJNzHbzPOWbb9cMrcswCsDKsCv4xj8l3O7X5D8flYB+C
+pYN81IwXJHScIyXZX54xQ+oIW/+G7zFaWrAhTowPYqagr4Ctdr1TE2QnQp21pjyu
+2t2gpsTqqIgp3/Boba6D4P8oaSPkbGnuQQRdiffmDzMOziYXJDFTbc0CAwEAAaNM
+MEowCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwMAYDVR0RBCkwJ4ILbGRhcC5oYi5s
+YW6CCzE5Mi4xNjguNS42ggsxOTIuMTY4LjUuNzANBgkqhkiG9w0BAQsFAAOCAgEA
+ba85/kwKh0mk9GEtqlgzqcAq/kn+LWwXbT2XiEnc30ahYh4ALoYD7wUZmDPISmOR
+ik+vHwjbIP3kc65+7EVJDHkR3AVjre5RbnWpQkIBpaehXPgsT7F0XwVRKW0w9nLl
+1WviDKiGi2kju4D1BsN132tgat1R43dMV3iyQqGj9fPbY9GA/RP7Xx428uItTe0f
+jE3wk27h890Gb7Fr1l73r+oM987OpLzk6QldRTldtr0ve9Sbtwdcefs7EPJtMcIT
+qT+LmmRr19etmUh0mkxRK+8eJ8Sj3KzbcBA1wyLnkIwEDQ5XpTSfL4BA5gy7Umui
+yUtbMyjZFnXY38cGyIUKp7K/OewqMvSG1DJ2278xI0LHToYbMvSrELzEuWhYgFjZ
+yCvS1U97d1Y/sUa8hMzfiE9cgptp0Yl7OZZbHfHbjZeCZWQBEN/Ue3cZHia1w9v9
+1qLeTqZRD2Wd4ze1bQbySyZBPTFJ93nqG1PTaXNnZSOl1S13tQ4xAqnXEOJmYE2R
+eayU4ybY9BM2JPivlzZf4A3D5syF3dllCMk4/KsQEYOnkkgpPdOsnjDfBjwKuefp
+KjfoRBNGwwbzQnQxNU0HN2TECFoW9Z9jUcuMcPpLLEb2ed+Vr1ZOJ1D6NYbYewGN
+YAa+OhcB/N7PHSXCYbfdGwEVsp6fFDTzRI5ZRCFZtWA=
+-----END CERTIFICATE-----

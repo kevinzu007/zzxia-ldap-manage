@@ -1,0 +1,25 @@
+# 修改为自己的信息域名：dc=hb,dc=lan
+## new ou：LoginGroup
+#dn: ou=LoginGroup,dc=hb,dc=lan
+#ou: LoginGroup
+#objectClass: organizationalUnit
+#objectClass: top
+
+# 组ug-login-deploy，成员kevin
+dn: cn=ug-login-deploy,ou=LoginGroup,dc=hb,dc=lan
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: ug-login-deploy
+description: deploy服务器用户
+uniqueMember: uid=kevin,ou=People,dc=hb,dc=lan
+
+# 组ug-login-nginx，成员keivn、chenglong
+dn: cn=ug-login-nginx,ou=LoginGroup,dc=hb,dc=lan
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: ug-login-nginx
+description: nginx服务器用户
+uniqueMember: uid=kevin,ou=People,dc=hb,dc=lan
+uniqueMember: uid=chenglong,ou=People,dc=hb,dc=lan
+
+

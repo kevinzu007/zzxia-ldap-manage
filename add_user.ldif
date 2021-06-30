@@ -1,0 +1,20 @@
+# create new
+# replace to your own domain name for "dc=***,dc=***" section
+dn: uid=${USER_UID},ou=${USER_U_OU},${DC}
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: ${USER_CN}
+sn: ${USER_SN}
+userPassword: ${USER_PASSWD_SSHA}
+loginShell: /bin/bash
+uidNumber: ${USER_UID_NUMBER}
+gidNumber: ${USER_GID_NUMBER}
+homeDirectory: /home/${USER_UID}
+
+dn: cn=${GROUP_CN},ou=${USER_G_OU},${DC}
+objectClass: posixGroup
+cn: ${GROUP_CN}
+gidNumber: ${USER_GID_NUMBER}
+memberUid: ${USER_UID}
+

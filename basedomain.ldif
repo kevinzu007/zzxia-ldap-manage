@@ -1,0 +1,22 @@
+# replace to your own domain name for "dc=***,dc=***" section
+dn: dc=hb,dc=lan
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: HaiBao
+dc: hb
+
+dn: cn=Manager,dc=hb,dc=lan
+objectClass: organizationalRole
+cn: Manager
+description: Directory Manager
+
+dn: ou=People,dc=hb,dc=lan
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=hb,dc=lan
+objectClass: organizationalUnit
+ou: Group
+
+

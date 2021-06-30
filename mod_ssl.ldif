@@ -1,0 +1,31 @@
+# create new
+dn: cn=config
+changetype: modify
+add: olcTLSCACertificateFile
+olcTLSCACertificateFile: /etc/openldap/certs/ca.crt.pem
+-
+replace: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/openldap/certs/ldap.hb.lan.crt
+-
+replace: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/openldap/certs/ldap.hb.lan.key
+
+
+# --- 上下等同 ---
+
+#dn: cn=config
+#changetype: modify
+#add: olcTLSCACertificateFile
+#olcTLSCACertificateFile: /etc/openldap/certs/ca.crt.pem
+#
+#dn: cn=config
+#changetype: modify
+#replace: olcTLSCertificateFile
+#olcTLSCertificateFile: /etc/openldap/certs/ldap.hb.lan.crt
+#
+#dn: cn=config
+#changetype: modify
+#replace: olcTLSCertificateKeyFile
+#olcTLSCertificateKeyFile: /etc/openldap/certs/ldap.hb.lan.key
+
+

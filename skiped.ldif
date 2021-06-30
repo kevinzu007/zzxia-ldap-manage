@@ -1,0 +1,8 @@
+# Error: Already exists (68)
+# 修改为自己的信息域名：dc=hb,dc=lan
+# ou：loginhost
+dn: ou=loginhost,dc=hb,dc=lan
+ou: loginhost
+objectClass: organizationalUnit
+objectClass: top
+

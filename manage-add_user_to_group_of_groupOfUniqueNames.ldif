@@ -1,0 +1,10 @@
+# 修改为自己的信息域名：dc=hb,dc=lan
+# ou：loginhost
+# 组login-nginx，成员keivn、chenglong
+
+dn: cn=login-deploy,ou=loginhost,dc=hb,dc=lan
+changetype: modify
+add: uniqueMember
+uniqueMember: uid=chenglong,ou=People,dc=hb,dc=lan
+
+
